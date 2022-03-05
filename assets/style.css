@@ -72,6 +72,10 @@ h1 {
     max-width: 100%;
 }
 
+#highlight, a:hover {
+    color: rgba(22, 22, 22, 0.9);
+}
+
 #about-me {
     padding: 20px 0;
 }
