@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-color: rgb(216, 219 ,227);
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+ls, a {
+    padding: 0 5px;
+    color: black;
+    text-decoration: none;
+}
+h1 {
+    color: black;
+    text-decoration: none;
+}
+.align-right-head {
+    text-align: right;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+.align-right {
+    text-align: right;
+    padding: 10px 10px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.align-left {
+    text-align: left;
+    padding: 10px 10px;
+    position: relative;
+       
+}
+.image-cards {
+    width: 276px;
+    height: 360px;
+    border: 2px black solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.image-cards:hover {
+    width:500px;
+    height:auto;
+}
+.work-flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.small-img {
+    align-items: center;
+    line-height: 2.7;
+}
+
+.main-img {
+    width: 0 auto;
+    max-width: 100%;
+}
+
+#about-me {
+    padding: 20px 0;
+}
+
+#my-work {
+    padding: 20px 0;
+}
