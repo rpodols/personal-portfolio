@@ -74,6 +74,10 @@ h1 {
     background-color: black;
 }
 
+.background-color {
+    background-color: black;
+}
+
 #highlight, a:hover {
     color: rgba(22, 22, 22, 0.9);
 }
